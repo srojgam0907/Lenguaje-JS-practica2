@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,19 @@
 </head>
 <body>
     
-    <h1>Contador</h1>
+    <div id="contenedor">
+        <h1>Contador</h1>
 
-    <div id="contador">0</div>
+        <div id="contador">0</div>
 
-    <div id="botones">
-        <button id="aumentar">Aumentar</button>
-        <button id="disminuir">Disminuir</button>
-        <button id="reiniciar">Reiniciar</button>
+        <div id="botones">
+            <button id="aumentar">Aumentar</button>
+            <button id="disminuir">Disminuir</button>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+
+        <p id="error" class="error oculto">El contador no puede ser menor que 0</p>
     </div>
-
-    <p id="error" class="error oculto">El contador no puede ser menor que 0</p>
+    
 </body>
 </html>
