@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Oculta el mensaje*/
+.oculto {
+   display: none;
+}
+
+#contenedor {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 50px;
+   padding: 20px;
+   border: 2px solid black;
+
+}
+
+#contenedor h1{
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+#botones button{
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#contador {
+    font-size: 50px;
+}
+
+#botones button:hover {
+    background-color: black;
+    color: white;
+}
